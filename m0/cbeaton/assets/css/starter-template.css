@@ -1,0 +1,23 @@
+body {
+    padding-top: 50px;
+}
+.starter-template {
+    padding: 40px 15px;
+    text-align: center;
+}
+
+.submitLabel {
+    font-weight : 700;
+    position : relative;
+    top: -10px;
+}
+
+.uploadButton {
+    float : right;
+}
+
+.description {
+    text-align: center;
+    font-weight: 700;
+    font-size: 120%;
+}

@@ -1,0 +1,1 @@
+<?php define('USER', 'sseeto');

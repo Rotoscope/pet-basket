@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS `basket` (
+ `id` int(11) NOT NULL AUTO_INCREMENT,
+ `user_id` varchar(11) NOT NULL,
+ `pet_id` varchar(11) NOT NULL,
+ PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=62 DEFAULT CHARSET=ascii

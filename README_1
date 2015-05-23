@@ -1,0 +1,34 @@
+PLEASE MAKE SURE TO SVN UPDATE AND COMMIT CONSTANTLY.
+Update before you start working.
+Commit your work after a single large change.'
+Update again after just incase anyone else commited changes 
+
+-------------------------------------------------------------------
+
+Basic Page layout for footer
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <?php require_once __DIR__ . '/components/head.php'; ?>
+    </head>
+    <body>
+        <div id="wrapper">
+            <?php require_once __DIR__ . '/components/header.php'; ?>
+         <div id="content">
+
+         </div>
+         <?php require_once __DIR__ . '/components/footer.php'; ?>
+    </div>
+    </body>
+</html>
+
+
+4/16 CHANGE TO IMAGE CLASS
+access images: $images = $pet->images
+access image file name: 
+foreach($images as $image){
+    $originalImage = $image->getFileName();
+    $thumbnails = $image->getThumbnails();
+    // med thumbnail
+    $med = $thumbnails->med->fileName;
+}
